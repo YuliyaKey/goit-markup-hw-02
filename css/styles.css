@@ -1,0 +1,130 @@
+/* акцент #2196F3 */
+/* основной цвет фона #FFFFFF */
+/* вторичный цвет фона #F5F4FA */
+/* цвет героя и футера #2F303A */
+/* цвет заголовков #212121 */
+/* основной цвет текста #757575 */
+
+
+/* HEADER */
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #FFFFFF;
+}
+
+.header .logo {
+    color: #000000;
+}
+
+.logo > span {
+    color: #2196F3;
+}
+
+.header-link {
+    color: #212121;
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: #2196F3;
+}
+
+.header-contact {
+    color: #757575;
+}
+
+.header-contact:hover,
+.header-contact:focus {
+    color: #2196F3;
+}
+
+/* MAIN */
+/* HERO */
+
+/* main { 
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+} */
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: #FFFFFF;
+}
+
+.button {
+    color: #FFFFFF;
+    background:#2196F3 ;
+    border: none;
+}
+
+/* НАШИ ПРЕИМУЩЕСТВА */
+
+.advantages {
+    background-color: #FFFFFF;
+}
+
+.advantages-title {
+    color: #212121;
+}
+
+.advantages-text {
+    color: #757575;
+}
+
+/* ЧЕМ МЫ ЗАНИМАЕМСЯ */
+
+.services {
+    background-color: #FFFFFF;
+}
+
+.title {
+    color: #212121;
+}
+
+/* НАША КОМАНДА */
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.worker {
+ background-color: #FFFFFF;
+}
+
+.worker-info {
+    color: #212121;
+}
+
+.worker-info > span {
+    color: #757575;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: #2F303A;
+}
+
+.footer > .logo {
+    color: #FFFFFF;
+}
+
+.footer-address {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address > span {
+    color: #FFFFFF;
+}
