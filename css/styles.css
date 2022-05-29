@@ -128,3 +128,29 @@
 .footer-address > span {
     color: #FFFFFF;
 }
+
+/* ТИПЫ УСЛУГ */
+
+.service-button {
+    color: #212121;
+    background: #F5F4FA;
+    border: none;
+}
+
+.service-button:hover,
+.service-button:focus {
+    color: #FFFFFF;
+    background: #2196F3;
+    border: none;
+}
+
+/* НАШИ ПРОЕКТЫ */
+
+.project {
+    color: #757575;
+    background-color: #FFFFFF;
+}
+
+.project span {
+    color: #212121;
+}
