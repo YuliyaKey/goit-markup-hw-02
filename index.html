@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Document</title>
 </head>
 <body>
     <!--Шапка сайта с навигацией-->
@@ -18,7 +18,7 @@
            <a class="logo link" href=""><span>Web</span>Studio</a>
             <ul class="list">
                 <li>
-                    <a class="header-link link" href="">Студия</a>
+                    <a class="header-link link current" href="">Студия</a>
                 </li>
                 <li>
                     <a class="header-link link" href="./portfolio.html">Портфолио</a>
@@ -88,45 +88,36 @@
         <h2 class="title">Наша команда</h2>
         <ul class="list">
             <li>
-                <figure class="worker">
-                    <a href="">
-                        <img src="./images/img4.jpg" alt="Игорь Демьяненко" width="270" height="260">
-                    </a>  
-                <figcaption class="worker-info">Игорь Демьяненко<br><span>Product Designer</span></figcaption>
-                </figure>
+                <img class="worker" src="./images/img4.jpg" alt="Игорь Демьяненко" width="270" height="260"> 
+                <h3 class="worker-name">Игорь Демьяненко</h3>
+                <p class="worker-specialization">Product Designer</p>
             </li>
             <li>
-                <figure class="worker">
-                    <a href="">
-                        <img src="./images/img5.jpg" alt="Ольга Репина" width="270" height="260">
-                    </a>
-                <figcaption class="worker-info">Ольга Репина<br><span>Frontend Developer</span></figcaption>
-                </figure>
+                <img class="worker" src="./images/img5.jpg" alt="Ольга Репина" width="270" height="260">
+                <h3 class="worker-name">Ольга Репина</h3>
+                <p class="worker-specialization">Frontend Developer</p>
             </li>
             <li>
-                <figure class="worker">
-                    <a href="">
-                        <img src="./images/img6.jpg" alt="Николай Тарасов" width="270" height="260">
-                    </a>
-                <figcaption class="worker-info">Николай Тарасов<br><span>Marketing</span></figcaption>
-                </figure>
+                <img class="worker" src="./images/img6.jpg" alt="Николай Тарасов" width="270" height="260">
+                <h3 class="worker-name">Николай Тарасов</h3>
+                <p class="worker-specialization">Marketing</p>
             </li>
             <li>
-                <figure class="worker">
-                    <a href="">
-                        <img src="./images/img7.jpg" alt="Михаил Ермаков" width="270" height="260">
-                    </a>
-                    <figcaption class="worker-info">Михаил Ермаков<br><span>UI Designer</span></figcaption>
-                </figure>
+                <img src="./images/img7.jpg" alt="Михаил Ермаков" width="270" height="260">
+                <h3 class="worker-name">Михаил Ермаков</h3>
+                <p class="worker-specialization">UI Designer</p>
             </li>
         </ul>
     </section>
     </main>
     <!--footer-->
-    <div class="footer">
+    <footer class="footer">
         <a class="logo link" href=""><span>Web</span>Studio</a>
-        <address class="footer-address"><span>г. Киев, пр-т Леси Украинки, 26</span><br>info@example.com<br>+38 099 111 11 11
+        <address class="footer-address">
+            <p>г. Киев, пр-т Леси Украинки, 26</p>
+            <a class="header-contact link" href="mailto:info@example.com">info@example.com</a>
+            <a class="header-contact link" href="tel:+380991111111">+38 099 111 11 11</a>
         </address>
-    </div>
+    </footer>
 </body>
 </html>

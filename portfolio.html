@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!--Шапка сайта с навигацией-->
@@ -14,10 +18,10 @@
             <a class="logo link" href=""><span>Web</span>Studio</a>
             <ul class="list">
                 <li>
-                    <a class="header-link link" href="">Студия</a>
+                    <a class="header-link link" href="./index.html">Студия</a>
                 </li>
                 <li>
-                    <a class="header-link link" href="">Портфолио</a>
+                    <a class="header-link link current" href="">Портфолио</a>
                 </li>
                 <li>
                     <a class="header-link link" href="">Контакты</a>
@@ -33,7 +37,7 @@
     <!--Типы услуг-->
         <nav>
             <ul class="list">
-                <li><button class="service-button" type="button">Все</button></li>
+                <li><button class="service-button current" type="button">Все</button></li>
                 <li><button class="service-button" type="button">Веб-сайты</button></li>
                 <li><button class="service-button" type="button">Приложения</button></li>
                 <li><button class="service-button" type="button">Дизайн</button></li>
@@ -44,67 +48,88 @@
         <section>
             <ul class="list">
                 <li>
-                    <figure class="project">
-                        <img src="./images/img2-1.jpg" alt="Ноутбук с открытой страницей сайта клиента на экране" width="370px" height="294px">
-                        <figcaption><span>Технокряк</span><br>Веб-сайт</figcaption>
-                    </figure>
+                    <a class="project-link link" href="">
+                        <img src="./images/img2-1.jpg" alt="Ноутбук с открытой страницей сайта клиента на экране" width="370" height="294">
+                        <h2 class="project-title">Технокряк</h2>
+                        <p class="project-type">Веб-сайт</p>
+                        <!--<p class="project-description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>-->
+                        </a>
                 </li>
                 <li>
-                    <figure class="project">
-                        <img src="./images/img2-2.jpg" alt="Два баскетболиста с мячом" width="370px" height="294px">
-                        <figcaption><span>Постер New Orlean vs Golden Star</span><br>Дизайн</figcaption>
-                    </figure>
+                    <a class="project-link link" href="">
+                        <img src="./images/img2-2.jpg" alt="Два баскетболиста с мячом" width="370" height="294">
+                        <h2 class="project-title">Постер New Orlean vs Golden Star</h2>
+                        <p class="project-type">Дизайн</p>
+                        <!--<p class="project-description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>-->
+                    </a>
                 </li>
                 <li>
-                    <figure class="project">
-                        <img src="./images/img2-3.jpg" alt="Большая рыба с лого ресторана на ней" width="370px" height="294px">
-                        <figcaption><span>Ресторан Seafood</span><br>Приложение</figcaption>
-                    </figure>
+                    <a class="project-link link" href="">
+                        <img src="./images/img2-3.jpg" alt="Большая рыба с лого ресторана на ней" width="370" height="294">
+                        <h2 class="project-title">Ресторан Seafood</h2>
+                        <p class="project-type">Приложение</p>
+                        <!--<p class="project-description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>-->
+                    </a>
                 </li>
                 <li>
-                    <figure class="project">
-                        <img src="./images/img2-4.jpg" alt="Наушники" width="370px" height="294px">
-                        <figcaption><span>Проект Prime</span><br>Маркетинг</figcaption>
-                    </figure>
+                    <a class="project-link link" href="">
+                        <img src="./images/img2-4.jpg" alt="Наушники" width="370" height="294">
+                        <h2 class="project-title">Проект Prime</h2>
+                        <p class="project-type">Маркетинг</p>
+                        <!--<p class="project-description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>-->
+                    </a>
                 </li>
                 <li>
-                    <figure class="project">
-                        <img src="./images/img2-5.jpg" alt="Две небольшие коробки с разными лого" width="370px" height="294px">
-                        <figcaption><span>Проект Boxes</span><br>Приложение</figcaption>
-                    </figure>
+                    <a class="project-link link" href="">
+                        <img src="./images/img2-5.jpg" alt="Две небольшие коробки с разными лого" width="370" height="294">
+                        <h2 class="project-title">Проект Boxes</h2>
+                        <p class="project-type">Приложение</p>
+                        <!--<p class="project-description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>-->
+                    </a>
                 </li>
                 <li>
-                    <figure class="project">
-                        <img src="./images/img2-6.jpg" alt="Страница сайта с картой мира на мониторе" width="370px" height="294px">
-                        <figcaption><span>Inspiration has no Borders</span><br>Веб-сайт</figcaption>
-                    </figure>
+                    <a class="project-link link" href="">
+                        <img src="./images/img2-6.jpg" alt="Страница сайта с картой мира на мониторе" width="370" height="294">
+                        <h2 class="project-title">Inspiration has no Borders</h2>
+                        <p class="project-type">Веб-сайт</p>
+                        <!--<p-- class="project-description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице..</p-->>
+                    </a>
                 </li>
                 <li>
-                    <figure class="project">
-                        <img src="./images/img2-7.jpg" alt="Открытый глянцевый журнал" width="370px" height="294px">
-                        <figcaption><span>Издание Limited Edition</span><br>Дизайн</figcaption>
-                    </figure>
+                    <a class="project-link link" href="">
+                        <img src="./images/img2-7.jpg" alt="Открытый глянцевый журнал" width="370" height="294">
+                        <h2 class="project-title">Издание Limited Edition</h2>
+                        <p class="project-type">Дизайн</p>
+                        <!--<p class="project-description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>-->
+                    </a>
                 </li>
                 <li>
-                    <figure class="project">
-                        <img src="./images/img2-8.jpg" alt="Бумажная бирка с лого компании" width="370px" height="294px">
-                        <figcaption><span>Проект LAB</span><br>Маркетинг</figcaption>
-                    </figure>
+                    <a class="project-link link" href="">
+                        <img src="./images/img2-8.jpg" alt="Бумажная бирка с лого компании" width="370" height="294">
+                        <h2 class="project-title">Проект LAB</h2>
+                        <p class="project-type">Маркетинг</p>
+                        <!--<p class="project-description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>-->
+                    </a>
                 </li>
                 <li>
-                    <figure class="project">
-                        <img src="./images/img2-9.jpg" alt="Руки человека на клавиатуре ноутбука с лого компании на экране" width="370px" height="294px">
-                        <figcaption><span>Growing Business</span><br>Приложение</figcaption>
-                    </figure>
+                    <a class="project-link link" href="">
+                        <img src="./images/img2-9.jpg" alt="Руки человека на клавиатуре ноутбука с лого компании на экране" width="370" height="294">
+                        <h2 class="project-title">Growing Business</h2>
+                        <p class="project-type">Приложение</p>
+                        <!--<p class="project-description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>-->
+                    </a>
                 </li>
             </ul>
         </section>
     </main>
     <!--footer-->
-    <div class="footer">
+    <footer class="footer">
         <a class="logo link" href=""><span>Web</span>Studio</a>
-        <address class="footer-address"><span>г. Киев, пр-т Леси Украинки, 26</span><br>info@example.com<br>+38 099 111 11 11
+        <address class="footer-address">
+            <p>г. Киев, пр-т Леси Украинки, 26</p>
+            <a class="header-contact link" href="mailto:info@example.com">info@example.com</a>
+            <a class="header-contact link" href="tel:+380991111111">+38 099 111 11 11</a>
         </address>
-    </div>
+    </footer>
 </body>
 </html>
