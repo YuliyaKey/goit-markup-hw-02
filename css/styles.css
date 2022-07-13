@@ -214,7 +214,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-.footer-address > p {
+.address {
     color: var(--secondary-text-color);
 }
 
